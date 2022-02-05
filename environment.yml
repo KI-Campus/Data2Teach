@@ -2,7 +2,3 @@ name: data2teach
 channels:
   - conda-forge
 dependencies:
-  - r-base
-  - r-tidyverse
-  - r-dplyr
-  - r-ggpubr
