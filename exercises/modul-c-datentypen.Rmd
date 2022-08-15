@@ -1,0 +1,21 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Datentypen in R"
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zu Datentypen in R enthält insgesamt 1 Aufgabe.**
+
+1.) Bei dem Code unten hat sich ein Fehler eingeschlichen. Führe den Code aus und überlege, was das Problem sein könnte. Korrigiere den Fehler.
+```{r datatypes, exercise=TRUE}
+x = 13
+y = "7"
+x + y
+```
+
+```{r datatypes-hint}
+class(y)
+```
+
