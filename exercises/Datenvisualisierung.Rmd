@@ -1,0 +1,139 @@
+---
+title: "Datenvisualisierung"
+output: learnr::tutorial
+runtime: shiny_prerendered
+---
+
+```{r setup, include=FALSE}
+library(learnr)
+library(ggpubr)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Import der Daten
+
+### Schritt 1 
+Bei dieser Aufgabe handelt es sich um ein mehrseitiges Aufgabepaket. Nutze die Seitennavigation, wenn Du direkt zu einer Unterübung springen möchtest. Solltest Du Code aus der Beispiellösung ('Solution') kopieren möchten, benutze den Button "Copy to clipboad".
+
+*Herr Hamid hat wieder einen Datensatz für Dich zur Übung der Datenvisualisierung hinterlassen. Diesen findest Du unter https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv. Importiere die Daten in R.*
+```{r examsimp, exercise=TRUE}
+
+```
+
+
+```{r examsimp-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+```
+
+## Übersicht der Daten
+
+*Lasse Dir eine Zusammenfassung des Datensatzes ausgeben. Welchen Datentyp haben die einzelnen Variablen im Datensatz und was bedeutet dies für die weitere Arbeit mit den Daten?*
+
+```{r examsimpsum, exercise=TRUE}
+
+```
+
+
+```{r examsimpsum-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+summary(exams, digits=2)
+```
+
+## Visualisierung der Daten
+
+### Erstellung eines Boxplots
+
+*Für die Visualisierung der Daten hat Herr Hamid schon das Paket 'ggpubr' installiert. Erstelle nun mit Hilfe dieses Pakets einen Boxplot einer oder mehrerer numerischer Variablen.*
+
+```{r examsbox, exercise=TRUE}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+```
+
+```{r examsbox-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+ggboxplot(exams, y ="math.score", width = 0.5 )
+```
+
+### Erweiterung des Boxplots
+
+*Lasse Dir in einem nächsten Schritt die Mathematiknote verteilt nach den Genderattributen als Boxplot anzeigen. Wie interpretierst Du die Darstellung?*
+```{r examsboxgen, exercise=TRUE}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+```
+
+```{r examsboxgen-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+ggboxplot(exams, y ="math.score", x="gender", width = 0.5 )
+```
+### Erstellung eines Streudiagramms
+
+*Lasse Dir in einem nächsten Schritt ein Streudiagramm der numerischen Daten anzeigen. Als Erweiterung kannst Du auch zwei numerische Variablen in einem Streudiagramm kombinieren. Falls Du Hinweise zur Interpretation eines Streudiagramms benötigst, wird Dir [diese Seite](https://support.minitab.com/de-de/minitab/18/help-and-how-to/graphs/how-to/scatterplot/interpret-the-results/key-results/) weiterhelfen.*
+```{r examsplot, exercise=TRUE}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+```
+
+```{r examsplot-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+plot(exams$math.score)
+plot(exams$reading.score)
+plot(exams$writing.score)
+plot(exams$math.score,exams$reading.score)
+```
+
+### Erstellung eines Balkendiagramms
+
+*Lasse Dir in einem letzten Schritt ein Balkendiagramm der numerischen Daten anzeigen. Als Erweiterung kannst Du auch alle numerische Variablen in eine Balkendiagramm kombinieren.*
+
+```{r examsbar, exercise=TRUE}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+```
+
+```{r examsbar-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+barplot(exams$math.score)
+```
+
+## Analyse der Normalverteilung
+
+### Erstellung eines Quantil-Quantil-Diagramms
+
+*Die Normalverteilung von Daten ist eine wichtige Voraussetzung für eine weiterführende statistische Analyse und Interpretation. Um die Daten auf Normalverteilung zu überprüfen, lasse Dir in einem ersten Schritt die numerischen Daten in einem Quantil-Quantil-Plot anzeigen. Falls Du Hinweise zur Interpretation eines Quantil-Quantil-Plots benötigst, wird Dir [diese Seite](https://www.beratung-statistik.de/statistik-beratung-infos/r-tutorial/q-q-plot-r/) weiterhelfen.*
+```{r examsqq, exercise=TRUE}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+```
+
+```{r examsqq-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+ggqqplot(exams$math.score)
+ggqqplot(exams$reading.score)
+ggqqplot(exams$writing.score)
+```
+
+### Erstellung eines Shapiro-Wilk-Tests
+*Abschließend überprüfst Du mit Hilfe des Shapiro-Wilk-Tests, ob die Daten normal verteilt sind. Wenn Du Hilfe bei der Interpretation des Tests benötigst, dann schaue Dir am besten die [folgende Erklärung](https://de.wikibooks.org/wiki/GNU_R:_shapiro.test) einmal an und vergleiche diese mit Deinem Ergebnis. Wenn Du wissen möchtest, was es bedeutet, wenn Daten nicht normal verteilt sind, dann lies Dir [einmal die Erklärung des Lehrers Herr Rau](https://www.herr-rau.de/wordpress/2010/03/die-normalverteilung-teil-1.htm) durch. Falls Du auch noch die Konsequenzen wissen willst von nicht normal verteilten Daten, schau doch einfach mal in die weiterführenden Materialien ([Für Wissenshungrige](https://learn.ki-campus.org/courses/data2teach-phh2021/items/6KIHugn5i9IoGzbBD4ZTos)).*
+
+```{r examshapiro, exercise=TRUE}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+```
+
+```{r examshapiro-solution}
+exams <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams.csv")
+exams
+shapiro.test(exams$math.score)
+shapiro.test(exams$reading.score)
+shapiro.test(exams$writing.score)
+```

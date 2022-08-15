@@ -1,0 +1,30 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Variablenzuordnung in R "
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zur Variablenzuordnung in R enthält insgesamt 2 Aufgaben.**
+
+1.) Weise der Variable x den Wert 12 zu und lass Dir anschließend den Wert der Variable ausgeben.
+```{r variableassign, exercise=TRUE}
+
+```
+
+```{r variableassign-solution}
+x <- 12
+x
+```
+
+2.) Weise nun der Variable x den Wert 13 zu und der Variable y den Wert 7. Lass Dir anschließend die Summe der beiden Variablen ausgeben.
+```{r assignadd, exercise=TRUE}
+
+```
+
+```{r assignadd-solution}
+x = 13
+y = 7
+print (x+y)
+```

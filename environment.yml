@@ -1,5 +1,0 @@
-name: data2teach
-channels:
-  - conda-forge
-dependencies:
-  - r-base

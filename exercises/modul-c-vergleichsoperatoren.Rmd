@@ -1,0 +1,27 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Vergleichsoperatoren in R"
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zu Vergleichsoperatoren in R enthält insgesamt 2 Aufgaben.**
+
+1.) Überprüfe die Aussage, dass 8 größer als 6 ist.
+```{r compa, exercise=TRUE}
+
+```
+
+```{r compa-hint}
+8>6
+```
+
+2.) Ein Vektor besteht aus Zahlen zwischen 16 und 56. Gebe nur Zahlen aus dem Vektor aus, die kleiner oder gleich 25 sind.
+```{r compa2, exercise=TRUE}
+v <- 16:56
+```
+
+```{r compa2-solution}
+v <= 25
+```

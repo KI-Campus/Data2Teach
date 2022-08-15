@@ -1,0 +1,36 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Vektoren in R"
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zu Vektoren in R enthält insgesamt 3 Aufgaben.**
+
+1.) Erstelle einen Vektor aus den Monaten Oktober, November und Dezember. Überprüfe anschließend den Datentyp des Vektors.
+```{r vecmonths, exercise=TRUE}
+
+```
+
+```{r vecmonths-hint}
+typeof()
+```
+2.) Im unten stehenden Code wird ein Vektor aus 5 Zahlen erstellt. Bestimme die Länge des Vectors.
+```{r veclength, exercise=TRUE}
+v <- c("1", "2", "3", "4", "5")
+```
+
+```{r veclength-hint}
+length(v)
+```
+
+3.) Nimm noch einmal den Vektor aus Aufgabe 1 und greife auf den Monat November dieses Vektors direkt zu.
+```{r vecsel, exercise=TRUE}
+
+```
+
+```{r vecsel-solution}
+months()[2]
+```
+

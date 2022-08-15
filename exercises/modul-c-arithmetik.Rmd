@@ -1,0 +1,27 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Arithmetik in R"
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zur Arithmetik in R enthält insgesamt 2 Aufgaben.**
+
+1.) Führe die folgende Rechenoperation mit den genannten Operatoren (+,-,*,/,^) durch: Addiere die 16 zur 34 und multipliziere das Ergebnis mit 3 und teile dieses Ergebnis durch 5.
+```{r addition, exercise=TRUE}
+
+```
+
+```{r addition-solution}
+(34 + 16) *3 / 5
+```
+
+2.) Bei einer Klassenarbeit gab es 2 x die Note 1, 6 x die Note 2, 11 x die Note 3, 5 x die Note 4, 3x die Note 5 und 0 x die Note 6. Errechne den Klassendurchschnitt mit R.
+```{r gradebook, exercise=TRUE}
+
+```
+
+```{r gradebook-solution}
+((2 * 1) + (6 * 2) + (11 * 3) + (5 * 4) + (3 * 5))/27
+```

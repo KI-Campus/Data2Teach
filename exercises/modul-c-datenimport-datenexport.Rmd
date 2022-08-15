@@ -1,0 +1,32 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Datenimport & Datenexport"
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zu Funktionen in R enthält insgesamt 2 Aufgaben.**
+
+1.) Unter dieser URL https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams-short.csv hat Herr Hamid einen Datensatz zur Übung für Dich hinterlassen. Der Datensatz hat das Format CSV. Importiere die Datei, so wie es im Video erklärt worden ist. Die notwendigen Pakete hat Herr Hamid schon für Dich installiert. Nimm [den Spickzettel](https://learn.ki-campus.org/go/link?url=https%3A%2F%2Fs3.xopic.de%2Fkicampus-public%2Fcourses%2F5WS6Q0ne13Hpj84pbJxvM5%2Frtfiles%2F3t0rRlpBJn8yCmLDU56Ei8%2FM3-Cheatsheet.pdf&checksum=5b63479&tracking_type=rich_text_item_link&tracking_id=9a117fc6-10d7-4306-9392-75985ffb015a&tracking_course_id=c37bdd7b-c95e-4554-8545-bd690c33a6c9) zur Hilfe, falls Du Dich nicht erinnern kannst.
+```{r impcsv, exercise=TRUE}
+
+
+```
+
+```{r impcsv-solution}
+data_csv <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams-short.csv")
+data_csv
+```
+
+2.) Nachdem Du die Daten aus dem Internet importiert hast, möchtest Du diese auf Deiner Festplatte speichern. Exportiere die Daten als XLS-Datei. Schaue auf Deiner Festplatte nach der Datei, sobald Du den Code dafür ausgeführt hast.
+```{r impxls, exercise=TRUE}
+
+
+```
+
+```{r impxls-solution}
+data_csv <- read.csv("https://raw.githubusercontent.com/KI-Campus/Data2Teach/main/data/exams-short.csv")
+data_csv
+write.csv2(data_csv, file="data.xls")
+```

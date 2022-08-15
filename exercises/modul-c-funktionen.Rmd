@@ -1,0 +1,49 @@
+---
+title: "Funktionen in R"
+output: 
+  learnr::tutorial
+runtime: shiny_prerendered
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zu Funktionen in R enthält insgesamt 4 Aufgaben.**
+
+## 1.) Benutze die Funktion zum Sortieren von Zahlen, um den unten stehenden Vector aufsteigend zu sortieren. {data-progressive=TRUE}
+```{r funcsort, exercise=TRUE}
+v <- c(23,12,56,7,12,88,2,41,7,56)
+
+```
+
+```{r funcsort-hint}
+sort(v)
+```
+
+## 2.) Benutze die Funktion zur Feststellung der Länge des Vektors. {data-progressive=TRUE}
+```{r funclength, exercise=TRUE}
+v <- c(23,12,56,7,12,88,2,41,7,56)
+
+```
+
+```{r funclength-solution}
+length(v)
+```
+
+## 3.) Rechne nun noch mit der Summen-Funktion alle Zahlen des Vektors zusammen. {data-progressive=TRUE}
+```{r funcsum, exercise=TRUE}
+v <- c(23,12,56,7,12,88,2,41,7,56)
+
+```
+
+```{r funcsum-solution}
+sum(v)
+```
+
+## 4.) Reduziere nun noch abschließend den Vektor auf Werte, die nur 1 x vorkommen. {data-progressive=TRUE}
+```{r funcun, exercise=TRUE}
+v <- c(23,12,56,7,12,88,2,41,7,56)
+```
+
+```{r funcun-solution}
+unique(v)
+```

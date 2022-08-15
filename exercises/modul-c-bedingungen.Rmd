@@ -1,0 +1,37 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Bedingungen in R"
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zu Bedingungen in R enthält insgesamt 1 Aufgabe.**
+Mit Bedingungen kann man Datenanalysen in R so automatisieren, dass je nach Status der Daten andere 
+Bestandteile Deines Codes ausgegeben werden und somit eine bessere Entscheidungsunterstützung auf Basis der Daten ermöglicht wird. Das doppelte Gleichheitszeichen "==" entspricht dem Wort "ist gleich".
+
+1.) Wir greifen noch einmal die letzte Frage aus dem Video hier auf. Ändere dabei den Wert von x so, dass bei der Bedingung einmal 'korrekt' und einmal 'inkorrekt' ausgegeben wird.
+```{r ifelse1, exercise=TRUE}
+x =
+
+  if (x == 9) {
+  print('korrekt!')
+} else {
+  print('nicht korrekt!')
+}
+```
+
+
+2.) Wir nutzen noch einmal die Ergebnisse der Klassenarbeit aus der Übung zur Arithmetik in R. Du willst ausrechnen, ob der Klassenschnitt gravierend von der Durchschnittsnote (3.0) abweicht. Dabei ist bei einer Abweichung von über 20% eine Notenkorrektur notwendig. Formuliere eine if-else-Anweisung, die Dir ausgibt, ob die Noten korrigiert werden müssen oder nicht. Tipp: Wir nutzen für die Übung zwei logische Operatoren: <= ist "kleiner gleich" und >= ist "größer gleich".
+```{r ifelse2, exercise=TRUE}
+m <- ((2 * 1) + (6 * 2) + (11 * 3) + (5 * 4) + (3 * 5))/27
+
+```
+
+```{r ifelse2-solution}
+if (m <= 2.8 | m >= 3.2){
+  print('Notenkorrektur notwendig')
+} else {
+  print('Alles ok!')
+}
+```

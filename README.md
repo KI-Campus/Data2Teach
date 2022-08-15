@@ -1,3 +1,5 @@
 # Data2Teach
 
-Übungsaufgaben für den KI-Campus-Kurs Data2Teach der PH Heidelberg und TU Kaiserslautern. 
+In diesem Repository finden sich die Datensätze und Übungsaufgaben des vom BMBF-geförderten Projektes "Data2Teach. Wie Daten Schule und Schulen Daten machen". Dabei handelt es sich im ein Kooperationsprojekt der Pädagogischen Hochschule Heidelberg und der Technischen Universität Kaiserslautern.
+
+

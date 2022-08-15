@@ -1,0 +1,50 @@
+---
+output: learnr::tutorial
+runtime: shiny_prerendered
+title: "Logische Operatoren in R"
+---
+```{r setup, include=FALSE}
+library(learnr)
+```
+**Diese Übung zu logischen Operatoren in R enthält insgesamt 2 Aufgaben.**
+
+1.) Im Video hast Du verschiedene logische Operatoren kennengelernt. Programmiere 3 Beispiele, bei denen jeweils die Zahlen 7 und 14 sowie einer der logischen Operatoren genutzt wird. Falls Du ein Beispiel sehen willst, nutze den Hinweis (Hint).
+```{r logic1, exercise=TRUE}
+x = 7
+y = 14
+```
+
+```{r logic1-hint}
+x == 7
+y != x
+y & x != 0
+```
+
+2.) Wie musst Du den folgenden Code ändern, damit die Ausgabe "korrekt" angezeigt wird? Es gibt zwei verschiedene Optionen - du solltest beide finden!
+```{r logic2, exercise=TRUE}
+x <- 9
+y <- 10
+
+if (x == 5 & y == 10){
+  print('korrekt')
+}else {
+  print('nicht korrekt')
+}
+```
+
+```{r logic2-solution}
+if (x == 9 & y == 10){
+  print('korrekt')
+}else {
+  print('nicht korrekt')
+}
+```
+
+```{r logic2-hint}
+if (x == 5 | y == 10){
+  print('korrekt')
+}else {
+  print('nicht korrekt')
+}
+```
+
