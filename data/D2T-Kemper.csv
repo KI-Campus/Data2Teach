@@ -1,82 +1,82 @@
-ID,Klasse,Vorname,Name,Fehlstunden,Note Chemie,Lehrer:in Chemie,VERA-Test,Pisa-Test (Lesen),IQ-Test bei Schuleingang,Anmerkungen Schuplsychologe (nach ICD-10-GM),Zeit auf dem LMS in diesem Monat (in Minuten),LMS Kapitel,Tastaturanschl√§ge im LMS pro Minute,LMS Exitseite,Beruf der Eltern
-1,6a,Anna,M√ºller,19,1,Herr Rosarius,641,493,116,unauf√§llig,54,"2,3,7",92,www.blinde-kuh.de,Akademiker
-2,6a,Uibino,Danatanga,1,1,Herr Rosarius,206,354,99,F91.1,95,1,116,"https://www.gamestar.de/ ",Nicht-Akademiker
-3,6a,Ricardo,Schmitz,31,1,Herr Rosarius,334,311,98,unauf√§llig,35,"1,2,3,4,5,6,7,8,9",106,"www.spiegel.de ",Akademiker
-4,6a,Gabi,Paulsen,29,2,Herr Rosarius,592,480,117,unauf√§llig,36,"1,6,8,10,11",133,www.fluter.de,Akademiker
-5,6a,Josefine,Rohr,34,3,Herr Rosarius,594,657,109,unauf√§llig,184,"2,4,8",103,www.bzga.de,Nicht-Akademiker
-6,6a,Marco,Gantini,16,3,Herr Rosarius,292,540,96,unauf√§llig,75,"1,8",161,www.fragfinn.de,Nicht-Akademiker
-7,6a,Carina,Obugolo,28,5,Herr Rosarius,504,455,106,unauf√§llig,78,"1,6,8",91,https://www.ingame.de/,Nicht-Akademiker
-8,6a,Lilly,Schrull,11,2,Herr Rosarius,662,561,116,F98.5,70,"2,4,9",108,"facebook.com ",Akademiker
-9,6a,T√ºrkalp,√úlker,7,1,Herr Rosarius,743,562,112,unauf√§llig,110,"5,7,8",154,youtube.com,Nicht-Akademiker
-10,6a,Svenja,Becker,9,5,Herr Rosarius,232,333,92,unauf√§llig,184,0,94,google.com,Akademiker
-11,6a,Sarah,Sorgenlos,20,2,Herr Rosarius,696,429,98,unauf√§llig,170,"1,2",148,netflix.com,Akademiker
-12,6a,Henriette,Konzen,12,3,Herr Rosarius,414,539,94,unauf√§llig,130,"4,9,12",131,https://witze.net,Nicht-Akademiker
-13,6a,Amadeo,Giovine,5,3,Herr Rosarius,396,562,111,unauf√§llig,93,"6,8,9",134,,Akademiker
-14,6a,Nick,Botango,21,4,Herr Rosarius,650,566,102,unauf√§llig,6,1,143,youtube.com,Akademiker
-15,6a,Rita,Nieper,22,1,Herr Rosarius,485,563,104,unauf√§llig,128,"4,5,8",132,,Nicht-Akademiker
-16,6a,Serdal,Priltlowitz,31,3,Herr Rosarius,708,491,98,F91.0,42,"2,7,10",82,youtube.com,Nicht-Akademiker
-17,6a,Paulo,Nunetti,30,4,Herr Rosarius,719,411,84,unauf√§llig,171,"4,7,10",165,google.com,Nicht-Akademiker
-18,6a,Sonja,Berkowitz,38,4,Herr Rosarius,304,419,114,unauf√§llig,101,"1,2,3,5,7,8",186,facebook.com,Akademiker
-19,6a,Lidwina,Bonbach,40,5,Herr Rosarius,470,523,116,unauf√§llig,82,"1,5,12",104,,Nicht-Akademiker
-20,6a,Dagmar,Loos,38,3,Herr Rosarius,442,658,90,unauf√§llig,8,1,173,,Akademiker
-21,6a,Urushi,Dingame,17,2,Herr Rosarius,624,657,105,unauf√§llig,65,"4,6,7",80,google.com,Akademiker
-22,6a,Viktor,Hahn,12,3,Herr Rosarius,515,650,111,unauf√§llig,11,1,82,"https://www.gamestar.de/ ",Nicht-Akademiker
-23,6a,Ariadna,del Fajardo,13,4,Herr Rosarius,316,672,108,unauf√§llig,102,"1,2,3,4,5,6,7,8",131,youtube.com,Akademiker
-24,6a,Lilly,Gumprich,39,4,Herr Rosarius,600,494,104,unauf√§llig,31,"2,3",97,,Akademiker
-25,6a,Heimo,Krein,14,4,Herr Rosarius,309,605,83,unauf√§llig,64,"3,5,7",157,https://witze.net,Nicht-Akademiker
-26,6b,Viola,Mies,40,2,Frau Wenzel,459,411,115,unauf√§llig,74,"1,9,10,11",182,youtube.com,Nicht-Akademiker
-27,6b,Silke,Becker,34,1,Frau Wenzel,201,515,114,unauf√§llig,121,"1,2,3,4,5,6,7,8,9",144,google.com,Akademiker
-28,6b,Alexandros,Stolze,34,1,Frau Wenzel,784,461,86,unauf√§llig,81,"1,2,3,4,5,6",187,"https://www.gamestar.de/ ",Nicht-Akademiker
-29,6b,Magda,Riehl,25,1,Frau Wenzel,790,469,107,unauf√§llig,131,"6,9,10,11,12",107,youtube.com,Akademiker
-30,6b,Heidelinde,Krebs-Ehlert,0,2,Frau Wenzel,361,515,87,unauf√§llig,102,"5,7,8,10,12",96,,Akademiker
-31,6b,Justina,Geisler,1,2,Frau Wenzel,259,366,109,unauf√§llig,65,"2,8,11",114,https://www.gamepro.de/,Nicht-Akademiker
-32,6b,Alicja,Mende-Seifert,3,1,Frau Wenzel,314,408,97,unauf√§llig,142,"4,5,6,7,8,9,10",154,,Akademiker
-33,6b,Ortrud,Hiller,0,2,Frau Wenzel,239,323,114,unauf√§llig,68,"3,5,7",180,google.com,Akademiker
-34,6b,Karola,Margraf,2,3,Frau Wenzel,665,608,113,F91.1,31,"2,7,10",154,facebook.com,Nicht-Akademiker
-35,6b,Sina,Stiebitz,24,3,Frau Wenzel,657,454,83,unauf√§llig,7,1,140,,Nicht-Akademiker
-36,6b,Nice,√úmuez,5,5,Frau Wenzel,345,521,111,unauf√§llig,40,"2,6,8",154,,Akademiker
-37,6b,Franz-Peter,Herrmann-Hendriks,32,2,Frau Wenzel,306,456,112,unauf√§llig,116,"5,7,8",105,,Nicht-Akademiker
-38,6b,Edgar,Kroker,4,1,Frau Wenzel,452,556,86,unauf√§llig,101,"1,6,8,10,11",108,,Akademiker
-39,6b,Gunnar,Hecker,27,4,Frau Wenzel,538,529,116,unauf√§llig,122,"2,7,10",108,,Akademiker
-40,6b,Wolf-Dietrich,Mans,25,4,Frau Wenzel,788,593,104,unauf√§llig,123,"4,7,8,10,11,12",82,google.com,Nicht-Akademiker
-41,6b,Belinda,Kallert,12,1,Frau Wenzel,269,606,93,unauf√§llig,128,"3,5,6,8,9,10,11",100,youtube.com,Nicht-Akademiker
-42,6b,Polina,Atzler,8,4,Frau Wenzel,716,530,103,unauf√§llig,165,"2,3,4,8,9,12",149,https://www.gamepro.de/,Akademiker
-43,6b,Dietlinde,Fiebig,15,4,Frau Wenzel,245,678,109,unauf√§llig,172,"1,2,3,4,5,6,7,8,9,10,11,12",184,,Nicht-Akademiker
-44,6b,Stefano,Schleich,1,3,Frau Wenzel,212,387,88,unauf√§llig,107,"4,8,9,10,11",130,,Akademiker
-45,6b,Daria,Beier,5,1,Frau Wenzel,615,446,87,unauf√§llig,39,"2,9",142,"https://www.gamestar.de/ ",Akademiker
-46,6b,Heidi,Langern-Kruschwitz,18,1,Frau Wenzel,432,419,87,unauf√§llig,181,"1,2,3,4,5,6,7,8,9,10,11,12",116,,Nicht-Akademiker
-47,6b,Kƒ±zƒ±l,ƒ∞n√∂n√º,20,3,Frau Wenzel,440,520,104,unauf√§llig,71,"4,7,8,10,11,12",90,google.com,Akademiker
-48,6b,Hanni,Ritter,25,2,Frau Wenzel,577,697,103,unauf√§llig,58,"6,9,10",91,,Akademiker
-49,6b,Johanna,Lorch,19,3,Frau Wenzel,237,661,93,unauf√§llig,38,"1,2",102,https://witze.net,Nicht-Akademiker
-50,6b,Heidelinde,Klemm,8,5,Frau Wenzel,464,646,115,unauf√§llig,153,"1,3,8,9,7",145,,Nicht-Akademiker
-51,6b,Franka,Scheibe-Krause,4,5,Frau Wenzel,594,458,98,unauf√§llig,152,"1,2,3,4,5,6,7,8",112,,Akademiker
-52,6b,Raymund,Riehl,31,2,Frau Wenzel,744,563,102,F98.5,157,"1,2,3,4,5,6,7,8,9",149,facebook.com,Nicht-Akademiker
-53,6b,Arnfried,Kobelt,26,4,Frau Wenzel,316,699,99,unauf√§llig,176,"1,2,3,4,5,6,7,8,9,10,11",115,,Akademiker
-54,6b,√ñzbilge,Arslan,12,1,Frau Wenzel,779,325,97,unauf√§llig,171,"1,6,8,9",119,"https://www.giga.de/games/news/ ",Akademiker
-55,6c,Manuel,Linke,28,5,Frau Schneider,471,455,110,unauf√§llig,91,"1,2,3,4,5,6",143,,Nicht-Akademiker
-56,6c,Annekatrin,Schweitzer,0,4,Frau Schneider,642,645,103,unauf√§llig,89,"3,5,7,8",183,,Nicht-Akademiker
-57,6c,Frank,Paffrath,12,5,Frau Schneider,383,380,115,unauf√§llig,149,"3,5,6,8,9,10,11",148,google.com,Akademiker
-58,6c,Kilian,Hahn,14,1,Frau Schneider,653,320,99,F93.3,80,"1,2,3,4",107,,Akademiker
-59,6c,Herr,Salih,30,2,Frau Schneider,231,444,97,unauf√§llig,18,"5,6",121,youtube.com,Nicht-Akademiker
-60,6c,Mariechen,Hofmann-Siering,23,3,Frau Schneider,523,602,89,unauf√§llig,11,1,96,,Nicht-Akademiker
-61,6c,Cindy,Steckel,37,3,Frau Schneider,391,411,96,unauf√§llig,119,"2,7,9,12",150,,Akademiker
-62,6c,Ernst-August,Henk,29,1,Frau Schneider,456,614,89,unauf√§llig,102,"1,2,3,5,7,8",151,"https://www.gamestar.de/ ",Nicht-Akademiker
-63,6c,Klaus,Peter,6,1,Frau Schneider,646,311,85,unauf√§llig,60,,147,,Akademiker
-64,6c,Giuseppe,Stey,30,2,Frau Schneider,780,473,98,unauf√§llig,143,"2,3,4,8,9,12",129,,Akademiker
-65,6c,Janet,Koch,25,1,Frau Schneider,257,313,105,unauf√§llig,114,"3,6,9,10",144," ",Nicht-Akademiker
-66,6c,Friedericke,Haase,20,5,Frau Schneider,682,643,102,unauf√§llig,66,"2,5,8",165,"https://www.giga.de/games/news/ ",Akademiker
-67,6c,Hans,Bohnbach,15,5,Frau Schneider,369,663,93,unauf√§llig,66,"3,7,9",122,google.com,Akademiker
-68,6c,Sevim,Stoll,31,4,Frau Schneider,324,538,89,unauf√§llig,99,"2,7,12",103,,Nicht-Akademiker
-69,6c,Christiane,Roskoth-Binner,5,1,Frau Schneider,630,699,114,unauf√§llig,68,,147,facebook.com,Nicht-Akademiker
-70,6c,Johanna,Lorch,12,1,Frau Schneider,530,429,101,unauf√§llig,93,"3,8,9",92,,Akademiker
-71,6c,Heidelinde,Klemm,37,4,Frau Schneider,620,476,101,unauf√§llig,190,"1,2,3,4,5,6,7,8,9,10,11,12",81,,Nicht-Akademiker
-72,6c,Franka,Scheibe-Krause,16,3,Frau Schneider,718,536,88,unauf√§llig,98,"3,7,12",90,,Akademiker
-73,6c,Claas,Bien,32,4,Frau Schneider,690,647,114,unauf√§llig,123,"4,8,10",130,,Akademiker
-74,6c,Arnfried,Schwital,24,4,Frau Schneider,707,337,90,unauf√§llig,107,"1,11,12",136,google.com,Nicht-Akademiker
-75,6c,Timo,Rust,21,4,Frau Schneider,228,572,110,unauf√§llig,177,"1,2,3,4,5,6,7,8,9,10,11",95,,Nicht-Akademiker
-76,6c,Nina,Meier,22,3,Frau Schneider,716,649,100,unauf√§llig,164,"1,2,3,4,5,6,7,8,9",164,facebook.com,Akademiker
-77,6c,Harry,Hirsh,8,3,Frau Schneider,337,663,100,unauf√§llig,48,"1,2",96,,Nicht-Akademiker
-78,6c,Yilmaz,Demirel,1,1,Frau Schneider,492,575,114,unauf√§llig,104,12,93,,Akademiker
-79,6c,Timo,Gerwin,39,1,Frau Schneider,437,503,98,unauf√§llig,72,"1,3",160,"https://www.giga.de/games/news/ ",Akademiker
-80,6c,Tanja,Jansen,37,4,Frau Schneider,317,436,96,unauf√§llig,61,"1,3,8,9,7",83,,Nicht-Akademiker
-81,6c,Vitor,Farias,11,4,Frau Schneider,388,450,83,F98.5,116,"2,9,12",147,facebook.com,Akademiker
+ID;Klasse;Name;Vorname;Fehlstunden;Note Chemie;Lehrer:in Chemie;VERA-Test;Pisa-Test (Lesen);IQ-Test bei Schuleingang;Anmerkungen Schuplsychologe (nach ICD-10-GM);Zeit auf dem LMS in diesem Monat (in Minuten);LMS Kapitel;Tastaturanschläge im LMS pro Minute;LMS Exitseite;Beruf der Eltern
+1;6a;Anna;Müller;19;5;Herr Rosarius;641;493;116;unaufällig;54;2,3,7;92;www.blinde-kuh.de;Akademiker
+2;6a;Uibino;Danatanga;1;2;Herr Rosarius;206;354;99;F91.1;95;1;116;https://www.gamestar.de/ ;Nicht-Akademiker
+3;6a;Ricardo;Schmitz;31;2;Herr Rosarius;334;311;98;unaufällig;35;1,2,3,4,5,6,7,8,9;106;www.spiegel.de ;Akademiker
+4;6a;Gabi;Paulsen;29;3;Herr Rosarius;592;480;117;unaufällig;36;1,6,8,10,11;133;www.fluter.de;Akademiker
+5;6a;Josefine;Rohr;34;4;Herr Rosarius;594;657;109;unaufällig;184;2,4,8;103;www.bzga.de;Nicht-Akademiker
+6;6a;Marco;Gantini;16;1;Herr Rosarius;292;540;96;unaufällig;75;1,8;161;www.fragfinn.de;Nicht-Akademiker
+7;6a;Carina;Obugolo;28;5;Herr Rosarius;504;455;106;unaufällig;78;1,6,8;91;https://www.ingame.de/;Nicht-Akademiker
+8;6a;Lilly;Schrull;11;2;Herr Rosarius;662;561;116;F98.5;70;2,4,9;108;facebook.com ;Akademiker
+9;6a;Türkalp;Ülker;7;1;Herr Rosarius;743;562;112;unaufällig;110;5,7,8;154;youtube.com;Nicht-Akademiker
+10;6a;Svenja;Becker;9;4;Herr Rosarius;232;333;92;unaufällig;184;0;94;google.com;Akademiker
+11;6a;Sarah;Sorgenlos;20;4;Herr Rosarius;696;429;98;unaufällig;170;1,2;148;netflix.com;Akademiker
+12;6a;Henriette;Konzen;12;5;Herr Rosarius;414;539;94;unaufällig;130;4,9,12;131;https://witze.net;Nicht-Akademiker
+13;6a;Amadeo;Giovine;5;1;Herr Rosarius;396;562;111;unaufällig;93;6,8,9;134;;Akademiker
+14;6a;Nick;Botango;21;1;Herr Rosarius;650;566;102;unaufällig;6;1;143;youtube.com;Akademiker
+15;6a;Rita;Nieper;22;2;Herr Rosarius;485;563;104;unaufällig;128;4,5,8;132;;Nicht-Akademiker
+16;6a;Serdal;Priltlowitz;31;2;Herr Rosarius;708;491;98;F91.0;42;2,7,10;82;youtube.com;Nicht-Akademiker
+17;6a;Paulo;Nunetti;30;1;Herr Rosarius;719;411;84;unaufällig;171;4,7,10;165;google.com;Nicht-Akademiker
+18;6a;Sonja;Berkowitz;38;4;Herr Rosarius;304;419;114;unaufällig;101;1,2,3,5,7,8;186;facebook.com;Akademiker
+19;6a;Lidwina;Bonbach;40;3;Herr Rosarius;470;523;116;unaufällig;82;1,5,12;104;;Nicht-Akademiker
+20;6a;Dagmar;Loos;38;5;Herr Rosarius;442;658;90;unaufällig;8;1;173;;Akademiker
+21;6a;Urushi;Dingame;17;2;Herr Rosarius;624;657;105;unaufällig;65;4,6,7;80;google.com;Akademiker
+22;6a;Viktor;Hahn;12;5;Herr Rosarius;515;650;111;unaufällig;11;1;82;https://www.gamestar.de/ ;Nicht-Akademiker
+23;6a;Ariadna;del Fajardo;13;4;Herr Rosarius;316;672;108;unaufällig;102;1,2,3,4,5,6,7,8;131;youtube.com;Akademiker
+24;6a;Lilly;Gumprich;39;2;Herr Rosarius;600;494;104;unaufällig;31;2,3;97;;Akademiker
+25;6a;Heimo;Krein;14;4;Herr Rosarius;309;605;83;unaufällig;64;3,5,7;157;https://witze.net;Nicht-Akademiker
+26;6b;Viola;Mies;40;3;Frau Wenzel;459;411;115;unaufällig;74;1,9,10,11;182;youtube.com;Nicht-Akademiker
+27;6b;Silke;Becker;34;3;Frau Wenzel;201;515;114;unaufällig;121;1,2,3,4,5,6,7,8,9;144;google.com;Akademiker
+28;6b;Alexandros;Stolze;34;2;Frau Wenzel;784;461;86;unaufällig;81;1,2,3,4,5,6;187;https://www.gamestar.de/ ;Nicht-Akademiker
+29;6b;Magda;Riehl;25;2;Frau Wenzel;790;469;107;unaufällig;131;6,9,10,11,12;107;youtube.com;Akademiker
+30;6b;Heidelinde;Krebs-Ehlert;0;3;Frau Wenzel;361;515;87;unaufällig;102;5,7,8,10,12;96;;Akademiker
+31;6b;Justina;Geisler;1;2;Frau Wenzel;259;366;109;unaufällig;65;2,8,11;114;https://www.gamepro.de/;Nicht-Akademiker
+32;6b;Alicja;Mende-Seifert;3;1;Frau Wenzel;314;408;97;unaufällig;142;4,5,6,7,8,9,10;154;;Akademiker
+33;6b;Ortrud;Hiller;0;4;Frau Wenzel;239;323;114;unaufällig;68;3,5,7;180;google.com;Akademiker
+34;6b;Karola;Margraf;2;3;Frau Wenzel;665;608;113;F91.1;31;2,7,10;154;facebook.com;Nicht-Akademiker
+35;6b;Sina;Stiebitz;24;1;Frau Wenzel;657;454;83;unaufällig;7;1;140;;Nicht-Akademiker
+36;6b;Nice;Ümuez;5;4;Frau Wenzel;345;521;111;unaufällig;40;2,6,8;154;;Akademiker
+37;6b;Franz-Peter;Herrmann-Hendriks;32;3;Frau Wenzel;306;456;112;unaufällig;116;5,7,8;105;;Nicht-Akademiker
+38;6b;Edgar;Kroker;4;5;Frau Wenzel;452;556;86;unaufällig;101;1,6,8,10,11;108;;Akademiker
+39;6b;Gunnar;Hecker;27;5;Frau Wenzel;538;529;116;unaufällig;122;2,7,10;108;;Akademiker
+40;6b;Wolf-Dietrich;Mans;25;4;Frau Wenzel;788;593;104;unaufällig;123;4,7,8,10,11,12;82;google.com;Nicht-Akademiker
+41;6b;Belinda;Kallert;12;5;Frau Wenzel;269;606;93;unaufällig;128;3,5,6,8,9,10,11;100;youtube.com;Nicht-Akademiker
+42;6b;Polina;Atzler;8;3;Frau Wenzel;716;530;103;unaufällig;165;2,3,4,8,9,12;149;https://www.gamepro.de/;Akademiker
+43;6b;Dietlinde;Fiebig;15;1;Frau Wenzel;245;678;109;unaufällig;172;1,2,3,4,5,6,7,8,9,10,11,12;184;;Nicht-Akademiker
+44;6b;Stefano;Schleich;1;1;Frau Wenzel;212;387;88;unaufällig;107;4,8,9,10,11;130;;Akademiker
+45;6b;Daria;Beier;5;1;Frau Wenzel;615;446;87;unaufällig;39;2,9;142;https://www.gamestar.de/ ;Akademiker
+46;6b;Heidi;Langern-Kruschwitz;18;3;Frau Wenzel;432;419;87;unaufällig;181;1,2,3,4,5,6,7,8,9,10,11,12;116;;Nicht-Akademiker
+47;6b;Kızıl;_nönü;20;5;Frau Wenzel;440;520;104;unaufällig;71;4,7,8,10,11,12;90;google.com;Akademiker
+48;6b;Hanni;Ritter;25;5;Frau Wenzel;577;697;103;unaufällig;58;6,9,10;91;;Akademiker
+49;6b;Johanna;Lorch;19;5;Frau Wenzel;237;661;93;unaufällig;38;1,2;102;https://witze.net;Nicht-Akademiker
+50;6b;Heidelinde;Klemm;8;3;Frau Wenzel;464;646;115;unaufällig;153;1,3,8,9,7;145;;Nicht-Akademiker
+51;6b;Franka;Scheibe-Krause;4;5;Frau Wenzel;594;458;98;unaufällig;152;1,2,3,4,5,6,7,8;112;;Akademiker
+52;6b;Raymund;Riehl;31;4;Frau Wenzel;744;563;102;F98.5;157;1,2,3,4,5,6,7,8,9;149;facebook.com;Nicht-Akademiker
+53;6b;Arnfried;Kobelt;26;2;Frau Wenzel;316;699;99;unaufällig;176;1,2,3,4,5,6,7,8,9,10,11;115;;Akademiker
+54;6b;Özbilge;Arslan;12;1;Frau Wenzel;779;325;97;unaufällig;171;1,6,8,9;119;https://www.giga.de/games/news/ ;Akademiker
+55;6c;Manuel;Linke;28;2;Frau Schneider;471;455;110;unaufällig;91;1,2,3,4,5,6;143;;Nicht-Akademiker
+56;6c;Annekatrin;Schweitzer;0;2;Frau Schneider;642;645;103;unaufällig;89;3,5,7,8;183;;Nicht-Akademiker
+57;6c;Frank;Paffrath;12;1;Frau Schneider;383;380;115;unaufällig;149;3,5,6,8,9,10,11;148;google.com;Akademiker
+58;6c;Kilian;Hahn;14;4;Frau Schneider;653;320;99;F93.3;80;1,2,3,4;107;;Akademiker
+59;6c;Herr;Salih;30;4;Frau Schneider;231;444;97;unaufällig;18;5,6;121;youtube.com;Nicht-Akademiker
+60;6c;Mariechen;Hofmann-Siering;23;5;Frau Schneider;523;602;89;unaufällig;11;1;96;;Nicht-Akademiker
+61;6c;Cindy;Steckel;37;5;Frau Schneider;391;411;96;unaufällig;119;2,7,9,12;150;;Akademiker
+62;6c;Ernst-August;Henk;29;1;Frau Schneider;456;614;89;unaufällig;102;1,2,3,5,7,8;151;https://www.gamestar.de/ ;Nicht-Akademiker
+63;6c;Klaus;Peter;6;3;Frau Schneider;646;311;85;unaufällig;60;;147;;Akademiker
+64;6c;Giuseppe;Stey;30;5;Frau Schneider;780;473;98;unaufällig;143;2,3,4,8,9,12;129;;Akademiker
+65;6c;Janet;Koch;25;4;Frau Schneider;257;313;105;unaufällig;114;3,6,9,10;144; ;Nicht-Akademiker
+66;6c;Friedericke;Haase;20;5;Frau Schneider;682;643;102;unaufällig;66;2,5,8;165;https://www.giga.de/games/news/ ;Akademiker
+67;6c;Hans;Bohnbach;15;3;Frau Schneider;369;663;93;unaufällig;66;3,7,9;122;google.com;Akademiker
+68;6c;Sevim;Stoll;31;2;Frau Schneider;324;538;89;unaufällig;99;2,7,12;103;;Nicht-Akademiker
+69;6c;Christiane;Roskoth-Binner;5;5;Frau Schneider;630;699;114;unaufällig;68;;147;facebook.com;Nicht-Akademiker
+70;6c;Johanna;Lorch;12;3;Frau Schneider;530;429;101;unaufällig;93;3,8,9;92;;Akademiker
+71;6c;Heidelinde;Klemm;37;5;Frau Schneider;620;476;101;unaufällig;190;1,2,3,4,5,6,7,8,9,10,11,12;81;;Nicht-Akademiker
+72;6c;Franka;Scheibe-Krause;16;5;Frau Schneider;718;536;88;unaufällig;98;3,7,12;90;;Akademiker
+73;6c;Claas;Bien;32;1;Frau Schneider;690;647;114;unaufällig;123;4,8,10;130;;Akademiker
+74;6c;Arnfried;Schwital;24;3;Frau Schneider;707;337;90;unaufällig;107;1,11,12;136;google.com;Nicht-Akademiker
+75;6c;Timo;Rust;21;4;Frau Schneider;228;572;110;unaufällig;177;1,2,3,4,5,6,7,8,9,10,11;95;;Nicht-Akademiker
+76;6c;Nina;Meier;22;2;Frau Schneider;716;649;100;unaufällig;164;1,2,3,4,5,6,7,8,9;164;facebook.com;Akademiker
+77;6c;Harry;Hirsh;8;3;Frau Schneider;337;663;100;unaufällig;48;1,2;96;;Nicht-Akademiker
+78;6c;Yilmaz;Demirel;1;3;Frau Schneider;492;575;114;unaufällig;104;12;93;;Akademiker
+79;6c;Timo;Gerwin;39;4;Frau Schneider;437;503;98;unaufällig;72;1,3;160;https://www.giga.de/games/news/ ;Akademiker
+80;6c;Tanja;Jansen;37;4;Frau Schneider;317;436;96;unaufällig;61;1,3,8,9,7;83;;Nicht-Akademiker
+81;6c;Vitor;Farias;11;2;Frau Schneider;388;450;83;F98.5;116;2,9,12;147;facebook.com;Akademiker
